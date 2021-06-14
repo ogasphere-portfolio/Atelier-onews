@@ -1,16 +1,202 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>oNews</title>
 
     <!-- Reboot.css est un reset amélioré (avec des valeurs par défaut standardisées) https://getbootstrap.com/docs/4.1/content/reboot/ -->
-    <link rel="stylesheet" href="../css/reboot.css">
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/reboot.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
     <div class="wrapper">
-      
+      <section id="partie-gauche">
+        <header>
+          <h1>
+            O'Clock <br />
+            Student <br />
+            News
+          </h1>
+        </header>
+
+        <article id="dernier-article">
+          <h2>
+            Latest news <span id="dernier-titre">from your students</span>
+          </h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+            veritatis. Sit consectetur qui quas. Iusto voluptas repudiandae
+            quidem rem vitae ullam sed libero. Nobis voluptas at corrupti, nulla
+            accusantium quas.
+          </p>
+        </article>
+
+        <footer>
+          <a href="">Plan du site</a>
+          <a href="">Mentions légales</a>
+          <a href="">Contact</a>
+        </footer>
+      </section>
+
+      <section id="partie-droite">
+        <h2 id="titre-droite">Latest news</h2>
+
+        <div id="articles">
+          <article class="article">
+            <span class="tag news">News</span>
+
+            <h3>Lorem ipsum dolor sit amet</h3>
+
+            <img
+              class="avatar"
+              src="../images/icon-john.png"
+              alt="Avatar de John"
+            />
+
+            <h4>John Marchill <span class="date">le 21 Juillet 2019</span></h4>
+
+            <p>
+              fhghfhor sit amet consectetur adipisicing elit. Non dolorem
+              doloribus nemo obcaecati alias exercitationem nam expedita odit
+              nihil est ullam saepe, veritatis neque, at porro quia quibusdam
+              vero enim? Voilà je tenais à le dire.
+            </p>
+
+            <a href="">Continue reading</a>
+          </article>
+
+          <article class="article">
+            <span class="tag team">Team</span>
+
+            <h3>Le pair programming pour les nOObs</h3>
+
+            <img
+              class="avatar"
+              src="../images/icon-dar.png"
+              alt="Avatar de ohz"
+            />
+
+            <h4>Paul Darson <span class="date">Le 2 août 2019</span></h4>
+
+            <p>
+              Lae pair programming pour les dévs, c'est un peu comme certains
+              fromages : c'est mieux à deux.
+            </p>
+
+            <a href="">Continue reading</a>
+          </article>
+
+          <article class="article">
+            <span class="tag work">Work</span>
+
+            <h3>Pourquoi j'aime le PHP</h3>
+
+            <img
+              class="avatar"
+              src="../images/icon-ohz.png"
+              alt="Avatar de John"
+            />
+
+            <h4>Bruce Ékoute <span class="date">le 7 août 2019</span></h4>
+
+            <p>
+              PHP est le langage le plus répandu dans le Web. Je vous propose de
+              faire le tour de toutes ces petites choses simples qui lui donnent
+              une saveur si unique.
+            </p>
+
+            <a href="">Continue reading</a>
+          </article>
+
+          <article class="article">
+            <span class="tag team">Team</span>
+
+            <h3>La situation de scribe</h3>
+
+            <img
+              class="avatar"
+              src="../images/icon-spr.png"
+              alt="Avatar de John"
+            />
+
+            <h4>Otis <span class="date">le 5 Septembre 2019</span></h4>
+
+            <p>
+              Mais, vous savez, moi je ne crois pas qu'il y ait de bonne ou
+              mauvaise situation.Moi, si je devais résumer ma vie urd'hui avec
+              vous , je dirais que c'est d'abord des rencontres, des gens qui
+              m'ont tendu la main, peut-étre à un moment ou je ne pouvais pas,
+              ou j'etais tout seul chez moi. Et c'est assez curieux de se dire
+              que lesn hasrds, les rencontres forgent une destinée...
+            </p>
+
+            <a href="">Continue reading</a>
+          </article>
+
+          <article class="article">
+            <span class="tag team">Team</span>
+
+            <h3>Lorem ipsum dolor sit amet</h3>
+
+            <img
+              class="avatar"
+              src="../images/icon-john.png"
+              alt="Avatar de John"
+            />
+
+            <h4>John Marchill <span class="date">le 21 Juillet 2019</span></h4>
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+              dolorem doloribus nemo obcaecati alias exercitationem nam expedita
+              odit nihil est ullam saepe, veritatis neque, at porro quia
+              quibusdam vero enim? Voilà je tenais à le dire.
+            </p>
+
+            <a href="">Continue reading</a>
+          </article>
+
+          <article class="article">
+            <span class="tag team">Team</span>
+
+            <h3>Lorem ipsum dolor sit amet</h3>
+
+            <img
+              class="avatar"
+              src="../images/icon-john.png"
+              alt="Avatar de John"
+            />
+
+            <h4>John Marchill <span class="date">le 21 Juillet 2019</span></h4>
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+              dolorem doloribus nemo obcaecati alias exercitationem nam expedita
+              odit nihil est ullam saepe, veritatis neque, at porro quia
+              quibusdam vero enim? Voilà je tenais à le dire.
+            </p>
+
+            <a href="">Continue reading</a>
+          </article>
+        </div>
+      </section>
+
+      <!--
+        <section id="partie-gauche">
+            <h1 id="titre">Titre</h1>
+
+            <nav>
+                <header>
+                    <h2>Latest news <span>from our students</span></h2>
+                </header>
+
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, commodi. Fugiat quasi alias illo quidem ea rem vel minus rerum repudiandae. Sunt corrupti modi quaerat dolorem alias harum perferendis vero?</p>
+                </section>
+            </article>
+        </section> -->
+      <section></section>
     </div>
-</body>
+  </body>
 </html>
