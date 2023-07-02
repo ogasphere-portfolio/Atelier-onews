@@ -16,11 +16,11 @@ NEWS : #98DC62;
     padding: 2em;
 }
 
-header{
+header {
     background-image: url("../images/onews.svg");
     background-size: 40px 40px;
     background-repeat: no-repeat;
-    float: left ;
+    float: left;
 }
 
 h1 {
@@ -32,16 +32,16 @@ h1 {
     color: white;
 }
 
-h3{
+h3 {
     padding: 1em 0;
-    font-size:1.4em;
+    font-size: 1.4em;
 }
 
-h4{
+h4 {
     padding: 0 1em 0 0;
 }
 
-h4.date{
+h4.date {
     font-size: 0.5em;
 }
 
@@ -51,7 +51,7 @@ h4.date{
     font-weight: normal;
 }
 
-#dernier-article{
+#dernier-article {
     background-color: rgba(249, 249, 249, 0.1);
     mix-blend-mode: color-dodge;
     /*opacity: 0.5; */
@@ -72,10 +72,11 @@ footer a {
     mix-blend-mode: difference;
 }
 
-footer a:hover{
+footer a:hover {
     color: yellow
 }
-#partie-droite{
+
+#partie-droite {
     flex: 1 1 0px;
 }
 
@@ -84,7 +85,7 @@ footer a:hover{
     background-repeat: no-repeat;
 }
 
-.wrapper{
+.wrapper {
     box-sizing: border-box;
     display: flex;
 }
@@ -107,8 +108,9 @@ footer a:hover{
     border-bottom: 1px solid black;
     border-color: #EAEAEA;
 }
-.tag{
-    color:white;
+
+.tag {
+    color: white;
     padding: 0.2em 0.5em;
     border-radius: 5px;
     font-weight: 600;
@@ -123,12 +125,14 @@ h4 {
     padding-left: 3em;
 }
 
-.news{
+.news {
     background-color: #98DC62;
 }
-.work{
+
+.work {
     background-color: #0766F0;
 }
-.team{
+
+.team {
     background-color: #DC5E53;
 }
