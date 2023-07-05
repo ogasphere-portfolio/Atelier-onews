@@ -1,67 +1,19 @@
-<!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>oNews</title>
-        <style>
-/* From extension vscode.github */
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-.vscode-dark img[src$=\#gh-light-mode-only],
-.vscode-light img[src$=\#gh-dark-mode-only] {
-	display: none;
-}
-
-</style>
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
-<style>
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
-                font-size: 14px;
-                line-height: 1.6;
-            }
-        </style>
-        <style>
-.task-list-item {
-    list-style-type: none;
-}
-
-.task-list-item-checkbox {
-    margin-left: -20px;
-    vertical-align: middle;
-    pointer-events: none;
-}
-</style>
-        
-    </head>
-    <body class="vscode-body vscode-light">
-        <h1 id="onews">oNews</h1>
+<h1 id="onews">oNews</h1>
 <p>O'Clock sort son journal d'étudiants 💪</p>
-<p>Votre mission, si vous l'acceptez (...pfff évidemment qu'on l'accepte ), sera d'intégrer la maquette du site.</p>
-<p><img src="file:///d:\laragon\www\mon-portfolio\Projets\atelier-onews\home.png" alt="homepage"></p>
+<p>Votre mission, si vous l'acceptez (…pfff évidemment qu'on l'accepte ), sera d'intégrer la maquette du site.</p>
+<p><img src="home.png" alt="homepage" /></p>
 <h2 id="infos">Infos</h2>
 <ul>
 <li>il n'y a qu'une seule page à monter</li>
 <li>il y a une scrollbar à droite, mais on en tient pas compte</li>
 <li>cette fois, on utilise <code>reboot.css</code> pour standardiser les styles par défaut des balises HTML</li>
-<li>pour voir les différentes possibilités pour standardiser :
-<ul>
-<li><a href="https://codepen.io/ncerminara/pen/RLMwmy">https://codepen.io/ncerminara/pen/RLMwmy</a></li>
+<li>pour voir les différentes possibilités pour standardiser :</li>
+<li>https://codepen.io/ncerminara/pen/RLMwmy</li>
 <li>changez de sélection dans le menu déroulant <em>None (Browser styles only)</em></li>
 <li>vous verrez les différences en 1 clin d'oeil 😉</li>
-</ul>
-</li>
-<li>vous aurez besoin de spécifier une couleur avec de la transparence =&gt; <code>rgba(0, 0, 255, 0.5)</code> par exemple pour du bleu à 50% d'opacité =&gt; <a href="https://cssreference.io/property/color/">https://cssreference.io/property/color/</a></li>
-<li>vous aurez peut-être besoin de dire à un élément de prendre 100% de la hauteur de la fenêtre =&gt; <code>height: 100vh;</code>
-<ul>
+<li>vous aurez besoin de spécifier une couleur avec de la transparence =&gt; <code>rgba(0, 0, 255, 0.5)</code> par exemple pour du bleu à 50% d'opacité =&gt; https://cssreference.io/property/color/</li>
+<li>vous aurez peut-être besoin de dire à un élément de prendre 100% de la hauteur de la fenêtre =&gt; <code>height: 100vh;</code></li>
 <li>pour comprendre l'unité <code>vh</code>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length">la doc sur les unités de mesures sur MDN</a></li>
-</ul>
-</li>
 </ul>
 <h2 id="charte">Charte</h2>
 <h3 id="visuels">Visuels</h3>
@@ -89,34 +41,23 @@
 <ul>
 <li>il ne faut pas oublier d'enregistrer ses modifications (versions) avec <strong>git</strong></li>
 <li>il est préférable de le faire à chaque fonctionnalité terminée (par exemple, une fois la partie de gauche terminée =&gt; sauvegarde)</li>
-<li>rappel des commandes <strong>git</strong> :
-<ul>
-<li>fiche récap : <a href="https://kourou.oclock.io/ressources/fiche-recap/git-et-github/#gestion-des-fichiers">https://kourou.oclock.io/ressources/fiche-recap/git-et-github/#gestion-des-fichiers</a></li>
-<li>schéma étapes : <a href="https://kourou.oclock.io/content/uploads/2020/09/premiers-pas.png">https://kourou.oclock.io/content/uploads/2020/09/premiers-pas.png</a></li>
+<li>rappel des commandes <strong>git</strong> :</li>
+<li>fiche récap : https://kourou.oclock.io/ressources/fiche-recap/git-et-github/#gestion-des-fichiers</li>
+<li>schéma étapes : https://kourou.oclock.io/content/uploads/2020/09/premiers-pas.png</li>
 <li><code>git add .</code> pour ajouter tous les fichiers ajoutés/modifiés au prochain commit</li>
-<li><code>git commit -m &quot;message explicite expliquant les modifs effectuées&quot;</code> pour sauvegarder la version actuelle des fichiers sources</li>
+<li><code>git commit -m "message explicite expliquant les modifs effectuées"</code> pour sauvegarder la version actuelle des fichiers sources</li>
 </ul>
-</li>
-</ul>
-<h2 id="bonus-lisibilité-white_flower">Bonus &quot;lisibilité&quot; 💮</h2>
-<p>Si vous avez lu tout l'énoncé, vous savez ce qu'il vous reste à faire 😉</p>
+<h2 id="bonus-lisibilité-white_flower">Bonus "lisibilité" 💮</h2>
+<p>Si vous avez lu tout l'énoncé, vous savez ce qu'il vous reste à faire ;-)</p>
 <ul>
 <li>Trouvez les propriétés et valeurs CSS idéales pour que le cadre transparent derrière le texte central bouge harmonieusement lorsque vous modifiez la taille de la fenêtre</li>
 <li>Identifiez un moyen de faire ressortir les liens en bas de la page sur le fond clair</li>
 </ul>
-<h2 id="bonus-défilement-skull">Bonus &quot;défilement&quot; 💀</h2>
+<h2 id="bonus-défilement-skull">Bonus "défilement" 💀</h2>
 <ul>
 <li>il y a une scrollbar à droite, et désormais on en tient compte 💥</li>
 <li>la page contient en tout 6 articles, même si seuls 4 sont visibles</li>
-<li>lorsqu'on fait défiler la page pour voir les 2 articles suivants :
-<ul>
+<li>lorsqu'on fait défiler la page pour voir les 2 articles suivants :</li>
 <li>la partie de gauche ne bouge pas, elle reste figée</li>
 <li>le scroll fait descendre la partie droite et affiche les 2 articles suivants</li>
 </ul>
-</li>
-</ul>
-
-        
-        
-    </body>
-    </html>
